@@ -1,0 +1,38 @@
+{
+    "name": "nembium",
+    "version": "1.0.0",
+    "description": "Nembium is a backend framework for building applications with Node.js, Express, and MongoDB.",
+    "keywords": ["nembium", "backend", "framework", "node.js", "express", "mongodb"],
+    "homepage": "https://github.com/onurcipe/nembium#readme",
+    "bugs": {
+        "url": "https://github.com/onurcipe/nembium/issues",
+        "email": "nembium@onurcipe.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Onur Cipe",
+        "email": "onur@onurcipe.com"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/onurcipe/nembium.git"
+    },
+    "scripts": {
+        "prepublishOnly": "rm -rf dist && tsc"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "lodash": "^4.17.21",
+        "mongodb": "^6.13.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/lodash": "^4.17.15",
+        "@types/node": "^22.13.1",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    }
+}
