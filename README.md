@@ -433,10 +433,12 @@ router.route("/read").post(
                     definition: "*"
                 },
                 pathParameters: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 queryString: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 body: {
                     presence: "allowed-required",
@@ -481,10 +483,12 @@ router.route("/readOneById").post(
                     definition: "*"
                 },
                 pathParameters: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 queryString: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 body: {
                     presence: "allowed-required",
@@ -506,10 +510,12 @@ router.route("/createOne").post(
                     definition: "*"
                 },
                 pathParameters: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 queryString: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 body: {
                     presence: "allowed-required",
@@ -544,10 +550,12 @@ router.route("/updateOneByIdAndVersion").post(
                     definition: "*"
                 },
                 pathParameters: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 queryString: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 body: {
                     presence: "allowed-required",
@@ -584,10 +592,12 @@ router.route("/softDeleteOneByIdAndVersion").post(
                     definition: "*"
                 },
                 pathParameters: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 queryString: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 body: {
                     presence: "allowed-required",
@@ -610,10 +620,12 @@ router.route("/deleteOneByIdAndVersion").post(
                     definition: "*"
                 },
                 pathParameters: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 queryString: {
-                    presence: "forbidden"
+                    presence: "forbidden",
+                    definition: {}
                 },
                 body: {
                     presence: "allowed-required",

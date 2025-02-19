@@ -1,6 +1,6 @@
 {
     "name": "nembium",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Nembium is a backend framework for building applications with Node.js, Express, and MongoDB.",
     "keywords": ["nembium", "backend", "framework", "node.js", "express", "mongodb"],
     "homepage": "https://github.com/onurcipe/nembium#readme",
